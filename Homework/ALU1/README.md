@@ -12,3 +12,8 @@ Zadanie polega na zrealizowaniu widoku korzystając z kontenera ConstraintLayout
 
 ## Projekt
 ![layout](https://github.com/DaftMobile/androidlevelup_spring2019/tree/master/Homework/ALU1/layout.jpg)
+
+## Rozwiązanie
+
+![layout](https://github.com/DaftMobile/androidlevelup_spring2019/tree/master/Homework/ALU1/layout.jpg)
+![solution_screenshot](solution_screenshot.jpg)
