@@ -16,3 +16,4 @@ Zadanie polega na zrealizowaniu widoku korzystając z kontenera ConstraintLayout
 ## Rozwiązanie
 W rozwiązaniu umieściłem inne dane, ale układ elementów jest zgodny z założeniami zadania. Zrezygnowałem z użycia '@tools:sample/avatars' z uwagi na brak grafiki w aplikacji na telefonie - zastąpiłem ją ikoną zgodną ze schematem kolorów w projekcie. Dodatkowo poszerzyłem obwódkę w CircleImageView, by była lepiej widoczna. Zadbałem dodatkowo o to, by tekst nie wchodził pod FAB.
 ![solution_screenshot](solution_screenshot.jpg)
+
