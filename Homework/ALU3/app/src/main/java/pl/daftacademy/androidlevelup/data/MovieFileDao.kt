@@ -2,6 +2,7 @@ package pl.daftacademy.androidlevelup.data
 
 import android.content.Context
 import com.google.gson.Gson
+import pl.daftacademy.androidlevelup.entity.Movie
 import pl.daftacademy.androidlevelup.entity.MoviesPage
 import java.io.InputStreamReader
 

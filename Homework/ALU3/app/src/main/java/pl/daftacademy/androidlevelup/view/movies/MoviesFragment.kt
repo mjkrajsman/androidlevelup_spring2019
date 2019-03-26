@@ -23,4 +23,6 @@ class MoviesFragment : Fragment() {
         recyclerView.adapter = adapter
         adapter.items = viewModel.getMovies()
     }
+    
+
 }

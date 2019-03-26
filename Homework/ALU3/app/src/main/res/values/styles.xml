@@ -6,4 +6,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Drawer" parent="AppTheme">
+        <item name="colorControlHighlight">#00000000</item>
+    </style>
 </resources>
