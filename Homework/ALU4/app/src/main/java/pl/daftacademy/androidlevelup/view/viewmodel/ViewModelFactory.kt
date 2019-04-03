@@ -15,7 +15,8 @@ class ViewModelFactory(application: Application) : ViewModelProvider.Factory {
 
     init {
         MovieDatabase.initIfNeeded(application)
-        dbMovies = RoomMovies(MovieDatabase.INSTANCE.movies())
+        dbMovies = RoomMovies(MovieDatabase.INSTANCE.movies()
+            ,MovieDatabase.INSTANCE.studios())
         assetMovies = AssetsMovies(application)
     }
 

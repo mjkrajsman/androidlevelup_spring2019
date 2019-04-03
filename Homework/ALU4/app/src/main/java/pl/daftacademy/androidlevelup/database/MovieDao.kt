@@ -8,7 +8,7 @@ import androidx.room.Query
 interface MovieDao {
 
     @Insert
-    fun add(movies: Collection<Movie>)
+    fun add(movies: Collection<Movie>): LongArray
 
     @Query("SELECT * FROM movie")
     fun get(): List<Movie>

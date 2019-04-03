@@ -22,3 +22,7 @@ Polecam także adnotacje `@Embedded` i `@Relation`. Nie są konieczne do rozwią
 ## Termin
 Projekt (spakowany albo podlinkowany z repo) z rozwiązaniem należy wysłać na adres *android@daftacademy.pl* do **środy (03.04)** do godziny **12:00**. Powodzenia!
 
+## Komentarz do rozwiązania
+Zaproponowane rozwiązanie działa, jednak nie jestem z niego zadowolony. Głównie ze względu na fakt, w jaki musiałem rozwiązać dodawanie Studia przy tworzeniu nowego filmu. Za każdym razem tworzone jest nowe i rozwiązywany jest konflikt w bazie danych. W komentarzu w kodzie znajduje się też rozwiązanie pozwalające na uniknięcie takiego zachowania, jednak nie działa ono w razie braku rekordu reprezentującego dane Studio w bazie. Możliwe rozwiązania:
+-> źródłem listy, z której wybierane jest studio, nie powinny być `StringArray` z `resources`, a baza danych. Wtedy lista byłaby uzupełniana na podstawie bazy, a problem nieistniejącego Studia zostałby rozwiązany
+-> Tabela zawierająca Studia mogłaby się zapełniać wraz z utworzeniem bazy danych, na podstawie zasobów tekstowych aplikacji. Próbowałem wprowadzić takie rozwiązanie, jednak nie zdążyłem.
